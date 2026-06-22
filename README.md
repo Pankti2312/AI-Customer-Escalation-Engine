@@ -154,7 +154,7 @@ Project demonstration video available in:
 
 **Pankti Parmar**
 
-Computer Engineering Student | ServiceNow Developer | AI & Automation Enthusiast
+B.Tech CSE (AI) Student | ServiceNow Developer | AI & Automation Enthusiast
 
 GitHub Profile: [Pankti2312](https://github.com/Pankti2312)
 
