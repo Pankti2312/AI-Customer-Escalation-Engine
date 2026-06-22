@@ -71,7 +71,7 @@ Customer Feedback → Flow Designer → Sentiment Analysis Logic → Priority As
 4. Priority set to High
 5. Status updated to In Progress
 6. Incident automatically created
-7. AI Summary generated
+7. Automated Summary generated
 
 ### Positive Feedback Flow
 
@@ -123,7 +123,6 @@ Project demonstration video available in:
 * Flow Designer
 * Incident Management
 * Custom Tables
-* Business Rules
 * Reporting & Dashboards
 * GitLab
 * GitHub
@@ -157,7 +156,7 @@ Project demonstration video available in:
 
 Computer Engineering Student | ServiceNow Developer | AI & Automation Enthusiast
 
-GitHub: https://github.com/Pankti2312
+GitHub Profile: [Pankti2312](https://github.com/Pankti2312)
 
 ---
 
