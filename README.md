@@ -112,7 +112,8 @@ Customer Feedback → Flow Designer → Sentiment Analysis Logic → Priority As
 
 Project demonstration video available in:
 
-Demo/Demo.mp4
+![Project Demo](SS_AI_Customer/AI_Escalation.mp4)
+
 
 ---
 
