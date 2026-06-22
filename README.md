@@ -1,3 +1,7 @@
+
+
+
+
 # 🚀 AI Customer Escalation Engine
 
 ## 📌 Overview
@@ -112,7 +116,7 @@ Customer Feedback → Flow Designer → Sentiment Analysis Logic → Priority As
 
 Project demonstration video available in:
 
-![Project Demo](SS_AI_Customer/AI_Escalation.mp4)
+[![Project Demo](SS_AI_Customer/AI_Escalation.mp4)](https://github.com/user-attachments/assets/21cfc7d2-6929-40ba-a84f-a8d6cfc174a7)
 
 
 ---
