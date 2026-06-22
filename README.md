@@ -88,23 +88,23 @@ Customer Feedback → Flow Designer → Sentiment Analysis Logic → Priority As
 
 ### Flow Designer Automation
 
-![Flow Designer](Screenshots/FlowDesigner.png)
+![Flow Designer](SS_AI_Customer/Flow_Designer.png)
 
 ### Negative Feedback Processing
 
-![Negative Feedback](Screenshots/NegativeFeedback.png)
+![Negative Feedback](SS_AI_Customer/Negative_Feedback.png)
 
 ### Auto-Created Incident
 
-![Incident](Screenshots/IncidentCreated.png)
+![Incident](SS_AI_Customer/Auto_Incident_created.png)
 
 ### Positive Feedback Processing
 
-![Positive Feedback](Screenshots/PositiveFeedback.png)
+![Positive Feedback](SS_AI_Customer/Positive_Feedback.png)
 
 ### Dashboard & Reports
 
-![Dashboard](Screenshots/Dashboard.png)
+![Dashboard](SS_AI_Customer/Dashboard.png)
 
 ---
 
