@@ -1,7 +1,3 @@
-
-
-
-
 # 🚀 AI Customer Escalation Engine
 
 ## 📌 Overview
