@@ -1,93 +1,163 @@
-# AI-Customer-Escalation-Engine
+# 🚀 AI Customer Escalation Engine
 
+## 📌 Overview
 
+The AI Customer Escalation Engine is a ServiceNow-based automation solution designed to streamline customer support operations by automatically analyzing customer feedback, identifying critical complaints, and generating incidents for immediate action.
 
-## Getting started
+The application processes feedback from multiple sources such as Twitter, Email, and Play Store reviews, classifies customer sentiment, assigns priorities, and escalates high-risk issues through ServiceNow Incident Management.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+---
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## 🎯 Problem Statement
 
-## Add your files
+Organizations receive thousands of customer reviews, complaints, and support requests across various channels. Manually identifying critical issues can be time-consuming, leading to delayed responses and reduced customer satisfaction.
 
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+This project automates the entire process by:
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/pankti-group/ai-customer-escalation-engine.git
-git branch -M main
-git push -uf origin main
-```
+* Detecting negative customer feedback
+* Prioritizing critical complaints
+* Automatically creating incidents
+* Providing real-time visibility through dashboards
 
-## Integrate with your tools
+---
 
-* [Set up project integrations](https://gitlab.com/pankti-group/ai-customer-escalation-engine/-/settings/integrations)
+## 🛠️ Solution Architecture
 
-## Collaborate with your team
+Customer Feedback → Flow Designer → Sentiment Analysis Logic → Priority Assignment → Incident Creation → Dashboard & Reporting
 
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+---
 
-## Test and Deploy
+## ✨ Key Features
 
-Use the built-in continuous integration in GitLab.
+### Customer Feedback Management
 
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
+* Custom ServiceNow application
+* Custom Customer Feedback table
+* Multi-source feedback collection
 
-***
+### Automated Sentiment Classification
 
-# Editing this README
+* Detects positive and negative customer feedback
+* Keyword-based sentiment evaluation
+* Generates sentiment scores automatically
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+### Intelligent Escalation
 
-## Suggestions for a good README
+* Automatically assigns priority levels
+* Creates incidents for critical complaints
+* Links incidents back to customer feedback records
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+### Workflow Automation
 
-## Name
-Choose a self-explaining name for your project.
+* Built using ServiceNow Flow Designer
+* Automated record updates
+* Zero manual intervention required
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+### Reporting & Analytics
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+* Feedback Sentiment Dashboard
+* Priority Distribution Reports
+* High-Priority Complaint Monitoring
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+---
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## 🔄 Workflow
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+### Negative Feedback Flow
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+1. Customer submits feedback
+2. System detects critical keywords
+3. Sentiment set to Negative
+4. Priority set to High
+5. Status updated to In Progress
+6. Incident automatically created
+7. AI Summary generated
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+### Positive Feedback Flow
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+1. Customer submits feedback
+2. System detects positive feedback
+3. Sentiment set to Positive
+4. Priority set to Low
+5. Status remains New
+6. No incident created
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+---
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+## 📷 Project Screenshots
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+### Flow Designer Automation
 
-## License
-For open source projects, say how it is licensed.
+![Flow Designer](Screenshots/FlowDesigner.png)
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+### Negative Feedback Processing
+
+![Negative Feedback](Screenshots/NegativeFeedback.png)
+
+### Auto-Created Incident
+
+![Incident](Screenshots/IncidentCreated.png)
+
+### Positive Feedback Processing
+
+![Positive Feedback](Screenshots/PositiveFeedback.png)
+
+### Dashboard & Reports
+
+![Dashboard](Screenshots/Dashboard.png)
+
+---
+
+## 🎥 Demo Video
+
+Project demonstration video available in:
+
+Demo/Demo.mp4
+
+---
+
+## 🏗️ Technologies Used
+
+* ServiceNow Studio
+* Flow Designer
+* Incident Management
+* Custom Tables
+* Business Rules
+* Reporting & Dashboards
+* GitLab
+* GitHub
+
+---
+
+## 📊 Sample Business Impact
+
+* Faster complaint resolution
+* Reduced manual effort
+* Automated incident escalation
+* Improved customer satisfaction
+* Better visibility into customer sentiment trends
+
+---
+
+## 🚀 Future Enhancements
+
+* Integration with Social Media APIs
+* REST API-based feedback ingestion
+* AI/ML Sentiment Analysis Integration
+* Predictive Intelligence Implementation
+* Agent Workspace Dashboard
+* Real-Time Notifications
+
+---
+
+## 👨‍💻 Developer
+
+**Pankti Parmar**
+
+Computer Engineering Student | ServiceNow Developer | AI & Automation Enthusiast
+
+GitHub: https://github.com/Pankti2312
+
+---
+
+⭐ If you found this project interesting, feel free to star the repository and connect with me.
