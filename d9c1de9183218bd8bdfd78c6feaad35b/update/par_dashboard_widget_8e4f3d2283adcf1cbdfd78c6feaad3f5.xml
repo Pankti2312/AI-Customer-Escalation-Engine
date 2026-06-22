@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">b38b7dae832dcf1cbdfd78c6feaad3d1</canvas>
+        <component display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"dataLabelsType":"both","truncationType":"end","showRegister":true,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"showRegisterPercentage":false,"showPercentageOfTotalInTooltip":true,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Customer Feedback","sourceType":"table","tableOrViewName":"x_1920019_ai_cus_0_customer_feedback","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5MjAwMTlfYWlfY3VzXzBfY3VzdG9tZXJfZmVlZGJhY2sxNzgyMDIzMjAyMDg4","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"Feedback Sentiment Analysis","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzE5MjAwMTlfYWlfY3VzXzBfY3VzdG9tZXJfZmVlZGJhY2sxNzgyMDIzMjAyMDg4","id":"ZEdGaWJHVjRYekU1TWpBd01UbGZZV2xmWTNWelh6QmZZM1Z6ZEc5dFpYSmZabVZsWkdKaFkyc3hOemd5TURJek1qQXlNRGc0MTc4MjAyMzIwNzc2Ng==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE5MjAwMTlfYWlfY3VzXzBfY3VzdG9tZXJfZmVlZGJhY2sxNzgyMDIzMjAyMDg4","groupByField":"sentiment","isRange":false,"isChoice":true,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"showTotalValue":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"27f87r0x","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":null,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","colors":{}}</component_props>
+        <h>11</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Customer Feedback","code":"PAR_DASHBOARD.b38b7dae832dcf1cbdfd78c6feaad3d1.8e4f3d2283adcf1cbdfd78c6feaad3f5"},{"comment":"","message":"Feedback Sentiment Analysis","code":"PAR_DASHBOARD.b38b7dae832dcf1cbdfd78c6feaad3d1.8e4f3d2283adcf1cbdfd78c6feaad3f5"},{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.b38b7dae832dcf1cbdfd78c6feaad3d1.8e4f3d2283adcf1cbdfd78c6feaad3f5"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.b38b7dae832dcf1cbdfd78c6feaad3d1.8e4f3d2283adcf1cbdfd78c6feaad3f5"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 06:27:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8e4f3d2283adcf1cbdfd78c6feaad3f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AI Customer Escalation Engine" source="x_1920019_ai_cus_0">d9c1de9183218bd8bdfd78c6feaad35b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Customer Escalation Engine">d9c1de9183218bd8bdfd78c6feaad35b</sys_scope>
+        <sys_update_name>par_dashboard_widget_8e4f3d2283adcf1cbdfd78c6feaad3f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 06:43:29</sys_updated_on>
+        <visualization/>
+        <w>11</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="2b03521983218bd8bdfd78c6feaad34c" label="Customer Feedback" max_length="40" name="x_1920019_ai_cus_0_customer_feedback" type="collection">
+        <element label="Feedback Text" max_length="4000" name="feedback_text" type="string"/>
+        <element choice="3" default="New" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" value="new"/>
+                <element inactive_on_update="false" label="Resolved" value="resolved"/>
+                <element inactive_on_update="false" label="In Progress" value="in progress"/>
+                <element inactive_on_update="false" label="Closed" value="closed"/>
+            </choice>
+        </element>
+        <element label="Incident" max_length="32" name="incident" reference="incident" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Name" max_length="100" name="customer_name" type="string"/>
+        <element label="Sentiment Score" max_length="40" name="sentiment_score" type="integer"/>
+        <element choice="1" label="Source" max_length="40" name="source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Website" value="website"/>
+                <element inactive_on_update="false" label="Facebook" value="facebook"/>
+                <element inactive_on_update="false" label="Play Store" value="play store"/>
+                <element inactive_on_update="false" label="Email" value="email"/>
+                <element inactive_on_update="false" label="Instagram" value="instagram"/>
+                <element inactive_on_update="false" label="Twitter" value="twitter"/>
+            </choice>
+        </element>
+        <element choice="3" label="Sentiment" max_length="40" name="sentiment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Positive" value="positive"/>
+                <element inactive_on_update="false" label="Neutral" value="neutral"/>
+                <element inactive_on_update="false" label="Negative" value="negative"/>
+            </choice>
+        </element>
+        <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" value="high"/>
+                <element inactive_on_update="false" label="Critical" value="critical"/>
+                <element inactive_on_update="false" label="Medium" value="medium"/>
+                <element inactive_on_update="false" label="Low" value="low"/>
+            </choice>
+        </element>
+        <element label="AI Summary" max_length="4000" name="ai_summary" type="string"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <index name="index">
+            <element name="incident"/>
+        </index>
+    </element>
+</database>

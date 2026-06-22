@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 10:41:34</sys_created_on>
+        <sys_id>ae13961983218bd8bdfd78c6feaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1920019_ai_cus_0_customer_feedback.x_1920019_ai_cus_0.admin</sys_name>
+        <sys_package display_value="AI Customer Escalation Engine" source="x_1920019_ai_cus_0">d9c1de9183218bd8bdfd78c6feaad35b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Customer Escalation Engine">d9c1de9183218bd8bdfd78c6feaad35b</sys_scope>
+        <sys_security_acl display_value="x_1920019_ai_cus_0_customer_feedback">9e13961983218bd8bdfd78c6feaad37f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ae13961983218bd8bdfd78c6feaad39c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 10:41:34</sys_updated_on>
+        <sys_user_role display_value="x_1920019_ai_cus_0.admin" name="x_1920019_ai_cus_0.admin">19c1de9183218bd8bdfd78c6feaad3af</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
